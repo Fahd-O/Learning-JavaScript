@@ -1,0 +1,38 @@
+.text
+{
+    background-color: rgb(255, 217, 0) !important; /*the '!important' keyword makes the value of this particular property constant and un-overwriteable*/
+    color: red;
+    font-size: xx-large;
+}
+
+body
+{
+    background-color: rgb(189, 248, 255);
+}
+
+.text
+{
+    border: dashed green;
+    border-radius: .2rem;
+    background-color: black;
+}
+
+.dangerZone
+{
+    margin: 5% 10%;
+    border: dashed white;
+    border-radius: 1rem;
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 10px;
+
+}
+
+button
+{
+    font-size: xx-large;
+    border-radius: .5rem;
+}
