@@ -1,4 +1,3 @@
-
 {
     function User()
     {
@@ -34,4 +33,28 @@
     let teacher1 = new Teacher('Ahmad', ["Maths", "AI", "Data Science"]);
 
     console.log(student1, teacher1);
+
+    console.log(teacher1 instanceof Teacher);
+    console.log(teacher1 instanceof User);
+
+    if (teacher1 instanceof Student)
+    {
+        console.log('yep');    
+    }
+    else
+    {
+        console.log('nope');    
+    }
+
+    function doSomething(user)
+    {
+        if (user instanceof User)
+        {
+            return 5;    
+        }
+        return -1;
+    }
+
+    console.log(doSomething(teacher1));
+    console.log(doSomething("teacher1"));
 }
