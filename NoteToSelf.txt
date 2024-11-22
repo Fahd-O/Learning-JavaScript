@@ -1,1 +1,0 @@
-checkout 'DevMountain' for bootcamp on JavaScript real world projects
